@@ -1,0 +1,33 @@
+
+h1{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+.hello_world{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2000%;
+    overflow: hidden;
+    animation: typing_animation 5s steps(30),
+               blink_cursor 1s infinite alternate;
+    border-right: 10px solid;
+    white-space: nowrap; /*keep text on the same line*/
+}
+
+.wrapper{
+    margin: auto auto;
+    width: 2000px;
+}
+
+/*animation*/
+@keyframes blink_cursor {
+    from, to {border-color: transparent;}
+    50% {border-color: black;}
+}
+
+@keyframes typing_animation{
+   from{width: 0;} 
+   to{width: 100%;}
+}
+
