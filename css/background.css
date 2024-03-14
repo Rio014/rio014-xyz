@@ -4,5 +4,5 @@ html{
 
 body{
     background: rgb(176,230,245);
-    background: linear-gradient(63deg, rgba(176,230,245,1) 0%, rgba(247,247,193,1) 35%, rgba(243,247,247,1) 1000%);
+    background: linear-gradient(63deg, rgba(176,230,245,1) 0%, rgba(247,247,193,1) 35%, rgba(243,247,247,1) 1000%) no-repeat;
 }
